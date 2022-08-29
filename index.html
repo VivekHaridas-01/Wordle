@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Wordle</h1>
+    <div id="grid">
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="row">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+    </div>
+    <div id="kb">
+      <div class="row-one">
+        <button class="kb-btn">q</button>
+        <button class="kb-btn">w</button>
+        <button class="kb-btn">e</button>
+        <button class="kb-btn">r</button>
+        <button class="kb-btn">t</button>
+        <button class="kb-btn">y</button>
+        <button class="kb-btn">u</button>
+        <button class="kb-btn">i</button>
+        <button class="kb-btn">o</button>
+        <button class="kb-btn">p</button>
+      </div>
+      <div class="row-two">
+        <button class="kb-btn">a</button>
+        <button class="kb-btn">s</button>
+        <button class="kb-btn">d</button>
+        <button class="kb-btn">f</button>
+        <button class="kb-btn">g</button>
+        <button class="kb-btn">h</button>
+        <button class="kb-btn">j</button>
+        <button class="kb-btn">k</button>
+        <button class="kb-btn">l</button>
+      </div>
+      <div class="row-three">
+        <button class="kb-btn">Del</button>
+        <button class="kb-btn">z</button>
+        <button class="kb-btn">x</button>
+        <button class="kb-btn">c</button>
+        <button class="kb-btn">v</button>
+        <button class="kb-btn">b</button>
+        <button class="kb-btn">n</button>
+        <button class="kb-btn">m</button>
+        <button class="kb-btn">Enter</button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
